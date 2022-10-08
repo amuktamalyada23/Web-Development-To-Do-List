@@ -1,0 +1,64 @@
+*::selection{
+   background-color:#FFFF33;
+   color:white;
+}
+*{
+    font-family:'Segoe UI';
+    font-variant: small-caps;
+    font-weight:900;
+}
+.header{
+    background-color:rgb(24,24,53);
+    color:#FFFF33;
+}
+.log{
+    background-color:#FFFF33;
+    width:fit-content;
+    height:fit-content;
+    color:black;
+    border-radius: 5%;
+}
+.log input[type="text"], .log input[type="password"], .log input[type="email"]{
+    border:none;
+   border-bottom:1px solid rgb(24,24,53);
+    background-color:#FFFF33;
+    text-align: center;
+}
+.log a{
+    color:white;
+    font-weight:lighter;
+}
+.todopage{
+    text-align:center;
+    background-color: #FFFF33;
+    color:rgb(24,24,53);
+    border-radius: 1%;
+    width:fit-content;
+    height:fit-content;
+}
+.text{
+    color:#FFFF33;
+    font-weight:bold;
+}
+.todo{
+    color:rgb(24,24,53);
+    background-color: #FFFF33;
+    text-align: center;
+    border-radius:1%;
+}
+.todo input[type="text"]{
+    text-align: center;
+}
+.todo .table td{
+    border-color:#FFFF33;
+}
+.btn , .btn:hover{
+      background-color:rgb(24,24,53);
+      color:#FFFF33;
+}
+.btn-warning, .btn-warning:hover{
+    background-color:#FFFF33;
+    color:rgb(24,24,53);
+    border-color:#FFFF33;
+    font-weight:500;
+}
